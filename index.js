@@ -2,7 +2,8 @@ import express from "express";
 import bodyParser from 'body-parser';
 import cors from "cors";
 
-import userRoutes from "../crudOperation/routes/users.js"
+import userRoutes from "../git-practice/routes/users.js";
+
 
 const app = express();
 const port = 5000;
